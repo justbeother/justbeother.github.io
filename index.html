@@ -55,7 +55,7 @@ gapi.analytics.ready(function() {
 
   gapi.analytics.auth.authorize({
     container: 'auth-button',
-    clientid: '580416505223-ko4b81nkfkpvars7uv2jb1b2jqbosiir.apps.googleusercontent.com',
+    clientid: 580416505223-ko4b81nkfkpvars7uv2jb1b2jqbosiir.apps.googleusercontent.com,
   });
 
   // Step 4: Create the view selector.
@@ -96,6 +96,21 @@ gapi.analytics.ready(function() {
   });
 });
 </script>
+
+gapi.analytics.ready(function() {
+  gapi.analytics.createComponent('MyComponent', {
+    foo: function() {
+      alert('foo');
+    },
+    bar: function() {
+      alert('bar');
+    }
+  });
+  var myComponentInstance = new gapi.analytics.ext.MyComponent();
+  myComponentInstance.foo(); // Alerts 'foo'.
+});
+
+
 		
 		<footer>
     		<ul>
