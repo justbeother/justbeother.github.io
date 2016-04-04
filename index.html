@@ -7,10 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		
 		<style type="text/css">
-   #leftcol {
-    padding-right: 10px; /* Поле справа от текста */
-    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
-    width: 200px; /* Ширина колонки */ 
+   #maket {
+    width: 100%; /* Ширина всей таблицы в процентах */
+   }
+   #maket TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+   }
+   TD#leftcol {
+    width: 200px; /* Ширина левой колонки в пикселах */
    }
   </style>
 	</head>
@@ -37,6 +41,12 @@
     				<td><p>Непревзойденные выступления</p><br></td>
    			</tr>
   		</table>
+  		
+  		<table cellspacing="0" cellpadding="0" id="maket">
+   <tr> 
+    <td id="leftcol">Левая колонка</td><td>Правая колонка</td>
+   </tr>
+  </table>
 		
 		
 		
