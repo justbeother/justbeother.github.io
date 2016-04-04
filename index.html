@@ -97,6 +97,7 @@ gapi.analytics.ready(function() {
 });
 </script>
 
+<script>
 gapi.analytics.ready(function() {
   gapi.analytics.createComponent('MyComponent', {
     foo: function() {
@@ -109,7 +110,7 @@ gapi.analytics.ready(function() {
   var myComponentInstance = new gapi.analytics.ext.MyComponent();
   myComponentInstance.foo(); // Alerts 'foo'.
 });
-
+</script>
 
 		
 		<footer>
