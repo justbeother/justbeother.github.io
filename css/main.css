@@ -51,7 +51,7 @@ ul.posts li {
    TD#leftcol {
     width: 500px; /* Ширина левой колонки в пикселах */
     vertical-align: top;
-    margin-right=200px;
+    padding-right=200px;
     
     
    }
