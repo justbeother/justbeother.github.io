@@ -41,22 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-#maket {
-    width: 100%; /* Ширина всей таблицы в процентах */
-   }
-   #maket TD {
-    vertical-align: top; /* Вертикальное выравнивание в ячейках */
-   }
-   TD#leftcol {
-    width: 500px; /* Ширина левой колонки в пикселах */
-    vertical-align: top;
-    
-    
-   }
-   TD#rightcol {
-    width: 700px; /* Ширина правой колонки в пикселах */
-    margin-left=200px;
-    vertical-align: top;
-    
-   }
