@@ -3,8 +3,7 @@ function changeBckgColor() {
         document.body.style.background = "";
     } else {
         document.body.style.background = "black";
-        alert("Darkness falls across the land...
-The midnight hour is close at hand...");
+        alert("Darkness falls across the land...\nThe midnight hour is close at hand...");
     }
 }
 
