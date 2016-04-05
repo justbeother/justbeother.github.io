@@ -7,9 +7,9 @@ function showBrowser() {
 }
 
 function changeHeadSize() {
-    if (document.h1.size.valueOf() === new String("10").valueOf()) {
-        document.h1.size = "";
+    if (document.body.h1.size.valueOf() === new String("10").valueOf()) {
+        document.body.h1.size = "";
     } else {
-        document.h1.size = "10";
+        document.body.h1.size = "10";
     }
 }
