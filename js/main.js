@@ -1,3 +1,3 @@
 function showHost() {
-    alert(location.hostName);
+    alert(location.host);
 }
