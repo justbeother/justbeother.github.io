@@ -1,5 +1,5 @@
 function showHost() {
-    alert("Хост: " + location.host;
+    alert("Хост: " + location.host);
 }
 
 function showBrowser() {
