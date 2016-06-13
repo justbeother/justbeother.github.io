@@ -29,7 +29,6 @@ if(isset($_POST['rows'])&&isset($_POST['columns']))
 	<input type="number" id="mathR" min="1" max="'.$rows.'" value="1" onchange="onChangeMathRows()"><br><br>
 	<input type="button" value="Сумма элементов в строке" onclick="summa();">'; //закрываем таблицу и добавляем нужные элементы
 	echo $table; // сделали эхо всего 1 раз
-	alert('done');
 }
 
 ?>
