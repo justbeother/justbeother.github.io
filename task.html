@@ -67,6 +67,7 @@ if (req) {
     req.open("POST", "table.php", true); // параметры для соединения с сервером
     req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     req.send('rows=' + rows + '&columns=' + cols + '&minr=' + minR + '&maxr=' + maxR); //отправляем запрос на сервер
+    alert("done");
 	} 
 else alert("Браузер не поддерживает AJAX");
 }
