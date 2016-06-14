@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8>
-<title>Таблица</title>
-</head>
-<body>
-
-<h2>Таблица</h2>
-
 <?php
 if(isset($_POST['rows'])&&isset($_POST['columns']))
 {
@@ -42,5 +32,3 @@ if(isset($_POST['rows'])&&isset($_POST['columns']))
 }
 
 ?>
-</body>
-</html>
